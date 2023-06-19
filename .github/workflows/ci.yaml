@@ -11,6 +11,7 @@ env:
   GKE_ZONE: europe-southwest1   # Add your cluster zone here.
   DEPLOYMENT_NAME: gke-test # Add your deployment name here.
   IMAGE: nginx
+  project_id: devel-383222
 
 jobs:
   setup-build-publish-deploy:
