@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  PROJECT_ID: devel-383222
+  PROJECT_ID: devel-383222-gke
   GKE_CLUSTER: devel-383222-gke  # Add your cluster name here.
   GKE_ZONE: europe-southwest1   # Add your cluster zone here.
   DEPLOYMENT_NAME: gke-test # Add your deployment name here.
