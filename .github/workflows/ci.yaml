@@ -39,6 +39,7 @@ jobs:
         cluster_name: ${{ env.cluster_name }}
         location: ${{ env.GKE_ZONE }}
         credentials: ${{ secrets.GKE_SA_KEY }}
+        project_id: devel-383222
 
     # Deploy the Docker image to the GKE cluster
     - name: Deploy
